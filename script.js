@@ -3,10 +3,10 @@ function submitAnswers() {
 	const q2 = document.quiz.question2.value;
 	const q3 = document.quiz.question3.value;
 	const q4 = document.quiz.question4.value;
-	let result1 = document.getElementById("result1");
-	let result2 = document.getElementById("result2");
-	let result3 = document.getElementById("result3");
-	let result4 = document.getElementById("result4");
+	const result1 = document.getElementById("result1");
+	const result2 = document.getElementById("result2");
+	const result3 = document.getElementById("result3");
+	const result4 = document.getElementById("result4");
 
 	if (q1 === "Tom Brady") {
 		result1.innerHTML = "Tom Brady was the right answer!"
